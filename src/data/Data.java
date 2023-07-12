@@ -5,11 +5,11 @@ import java.io.Serializable;
 import model.Traje;
 
 public class Data implements Serializable {
-    public boolean addTrajes(Traje x){
+    public boolean addTrajes(Traje x) {
         data.add(x);
         return true;
     }
 
-    ArrayList<Traje>data=new ArrayList<>();
-    
+    ArrayList<Traje> data = new ArrayList<>();
+
 }
