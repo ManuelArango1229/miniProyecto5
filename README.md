@@ -1,7 +1,7 @@
 # Mini Proyecto 5 — Tienda de trajes implementando modelo vista-controlador
 
 El proyecto consistió en la creacion de un programa que permite manejar el inventario de trajes de una tienda. El programa cuenta con 6 funcionalidades, las cuales son Agregar traje, actualizar traje, eliminar traje,
-buscar traje, listar trajes y comprar un traje. Asimismo, el programa implementa de manera satisfactoria el modelo vista-controlador, permitiendo al usuario utilizarlo a través de una interfaz gráfica o la consola de su equipo.
+buscar traje, listar trajes y comprar un traje. Asimismo, el programa implementa el modelo vista-controlador, permitiendo al usuario utilizarlo a través de una interfaz gráfica o la consola de su equipo.
 
 * Agregar traje
 * Actualizar traje
