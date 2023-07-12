@@ -8,9 +8,9 @@ package view;
 
 /**
  *
- * @author valen
+ * 
  */
-public class Eliminar extends javax.swing.JPanel {
+public class Eliminar extends javax.swing.JPanel implements InterfazVistas {
 
     /**
      * Creates new form Eliminar
@@ -103,4 +103,75 @@ public class Eliminar extends javax.swing.JPanel {
     private javax.swing.JScrollPane jScrollPane1;
     private javax.swing.JTextArea txtArea;
     // End of variables declaration//GEN-END:variables
+    @Override
+    public int insertIdTraje(int id) {
+        // TODO Auto-generated method stub
+        throw new UnsupportedOperationException("Unimplemented method 'insertIdTraje'");
+    }
+
+    @Override
+    public String insertNameTraje(String name) {
+        // TODO Auto-generated method stub
+        throw new UnsupportedOperationException("Unimplemented method 'insertNameTraje'");
+    }
+
+    @Override
+    public String insertMatTraje(String material) {
+        // TODO Auto-generated method stub
+        throw new UnsupportedOperationException("Unimplemented method 'insertMatTraje'");
+    }
+
+    @Override
+    public double insertPriceTraje(double price) {
+        // TODO Auto-generated method stub
+        throw new UnsupportedOperationException("Unimplemented method 'insertPriceTraje'");
+    }
+
+    @Override
+    public int updateIdTraje(int id) {
+        // TODO Auto-generated method stub
+        throw new UnsupportedOperationException("Unimplemented method 'updateIdTraje'");
+    }
+
+    @Override
+    public String updateNameTraje(String name) {
+        // TODO Auto-generated method stub
+        throw new UnsupportedOperationException("Unimplemented method 'updateNameTraje'");
+    }
+
+    @Override
+    public String updateMatTraje(String material) {
+        // TODO Auto-generated method stub
+        throw new UnsupportedOperationException("Unimplemented method 'updateMatTraje'");
+    }
+
+    @Override
+    public double updatePriceTraje(double price) {
+        // TODO Auto-generated method stub
+        throw new UnsupportedOperationException("Unimplemented method 'updatePriceTraje'");
+    }
+
+    @Override
+    public int deleteTraje(int id) {
+        // TODO Auto-generated method stub
+        throw new UnsupportedOperationException("Unimplemented method 'deleteTraje'");
+    }
+
+    @Override
+    public String searchTraje(String name) {
+        // TODO Auto-generated method stub
+        throw new UnsupportedOperationException("Unimplemented method 'searchTraje'");
+    }
+
+    @Override
+    public void printTrajes() {
+        // TODO Auto-generated method stub
+        throw new UnsupportedOperationException("Unimplemented method 'printTrajes'");
+    }
+
+    @Override
+    public int buyTrajes(int id) {
+        // TODO Auto-generated method stub
+        throw new UnsupportedOperationException("Unimplemented method 'buyTrajes'");
+    }
 }
