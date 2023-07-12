@@ -102,29 +102,6 @@ public class Comprar extends javax.swing.JPanel implements InterfazVistas {
     private javax.swing.JScrollPane jScrollPane1;
     private javax.swing.JTextArea txtArea;
     // End of variables declaration//GEN-END:variables
-    @Override
-    public int insertIdTraje(int id) {
-        // TODO Auto-generated method stub
-        throw new UnsupportedOperationException("Unimplemented method 'insertIdTraje'");
-    }
-
-    @Override
-    public String insertNameTraje(String name) {
-        // TODO Auto-generated method stub
-        throw new UnsupportedOperationException("Unimplemented method 'insertNameTraje'");
-    }
-
-    @Override
-    public String insertMatTraje(String material) {
-        // TODO Auto-generated method stub
-        throw new UnsupportedOperationException("Unimplemented method 'insertMatTraje'");
-    }
-
-    @Override
-    public double insertPriceTraje(double price) {
-        // TODO Auto-generated method stub
-        throw new UnsupportedOperationException("Unimplemented method 'insertPriceTraje'");
-    }
 
     @Override
     public int updateIdTraje(int id) {
@@ -172,5 +149,41 @@ public class Comprar extends javax.swing.JPanel implements InterfazVistas {
     public int buyTrajes(int id) {
         // TODO Auto-generated method stub
         throw new UnsupportedOperationException("Unimplemented method 'buyTrajes'");
+    }
+
+    @Override
+    public void init() {
+        // TODO Auto-generated method stub
+        throw new UnsupportedOperationException("Unimplemented method 'init'");
+    }
+
+    @Override
+    public int insertIdTraje() {
+        // TODO Auto-generated method stub
+        throw new UnsupportedOperationException("Unimplemented method 'insertIdTraje'");
+    }
+
+    @Override
+    public String insertNameTraje() {
+        // TODO Auto-generated method stub
+        throw new UnsupportedOperationException("Unimplemented method 'insertNameTraje'");
+    }
+
+    @Override
+    public String insertOriginTraje() {
+        // TODO Auto-generated method stub
+        throw new UnsupportedOperationException("Unimplemented method 'insertOriginTraje'");
+    }
+
+    @Override
+    public String insertMatTraje() {
+        // TODO Auto-generated method stub
+        throw new UnsupportedOperationException("Unimplemented method 'insertMatTraje'");
+    }
+
+    @Override
+    public double insertPriceTraje() {
+        // TODO Auto-generated method stub
+        throw new UnsupportedOperationException("Unimplemented method 'insertPriceTraje'");
     }
 }
